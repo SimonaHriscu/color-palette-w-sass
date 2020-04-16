@@ -1,0 +1,19 @@
+@mixin color-info-box {
+      width: 11vw;
+      font-size: 1.1rem;
+      color: white;
+      background-color: color(info-background);
+      text-align: center;    
+}
+@mixin display-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+@mixin cont-settings{
+    width: 12vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
