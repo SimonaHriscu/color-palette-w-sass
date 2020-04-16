@@ -37,176 +37,77 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main .container1 .mini1-container1,
-.main .container1 .mini2-container1,
-.main .container1 .mini3-container1,
-.main .container1 .mini4-container1,
-.main .container2 .mini1-container1,
-.main .container2 .mini2-container1,
-.main .container2 .mini3-container1,
-.main .container2 .mini4-container1,
-.main .container3 .mini1-container1,
-.main .container3 .mini2-container1,
-.main .container3 .mini3-container1,
-.main .container3 .mini4-container1,
-.main .container4 .mini1-container1,
-.main .container4 .mini2-container1,
-.main .container4 .mini3-container1,
-.main .container4 .mini4-container1 {
+.main .mini1-container1,
+.main .mini2-container1,
+.main .mini3-container1,
+.main .mini4-container1 {
   flex-grow: 3;
 }
-.main .container1 .mini1-container2,
-.main .container1 .mini2-container2,
-.main .container1 .mini3-container2,
-.main .container1 .mini4-container2,
-.main .container2 .mini1-container2,
-.main .container2 .mini2-container2,
-.main .container2 .mini3-container2,
-.main .container2 .mini4-container2,
-.main .container3 .mini1-container2,
-.main .container3 .mini2-container2,
-.main .container3 .mini3-container2,
-.main .container3 .mini4-container2,
-.main .container4 .mini1-container2,
-.main .container4 .mini2-container2,
-.main .container4 .mini3-container2,
-.main .container4 .mini4-container2 {
+.main .mini1-container2,
+.main .mini2-container2,
+.main .mini3-container2,
+.main .mini4-container2 {
   flex-grow: 2;
 }
-.main .container1 .mini1-container3,
-.main .container1 .mini2-container3,
-.main .container1 .mini3-container3,
-.main .container1 .mini4-container3,
-.main .container1 .mini1-container4,
-.main .container1 .mini2-container4,
-.main .container1 .mini3-container4,
-.main .container1 .mini4-container4,
-.main .container2 .mini1-container3,
-.main .container2 .mini2-container3,
-.main .container2 .mini3-container3,
-.main .container2 .mini4-container3,
-.main .container2 .mini1-container4,
-.main .container2 .mini2-container4,
-.main .container2 .mini3-container4,
-.main .container2 .mini4-container4,
-.main .container3 .mini1-container3,
-.main .container3 .mini2-container3,
-.main .container3 .mini3-container3,
-.main .container3 .mini4-container3,
-.main .container3 .mini1-container4,
-.main .container3 .mini2-container4,
-.main .container3 .mini3-container4,
-.main .container3 .mini4-container4,
-.main .container4 .mini1-container3,
-.main .container4 .mini2-container3,
-.main .container4 .mini3-container3,
-.main .container4 .mini4-container3,
-.main .container4 .mini1-container4,
-.main .container4 .mini2-container4,
-.main .container4 .mini3-container4,
-.main .container4 .mini4-container4 {
+.main .mini1-container3,
+.main .mini2-container3,
+.main .mini3-container3,
+.main .mini4-container3,
+.main .mini1-container4,
+.main .mini2-container4,
+.main .mini3-container4,
+.main .mini4-container4 {
   flex-grow: 1;
 }
-.main .container1 .mini1-container1,
-.main .container2 .mini1-container1,
-.main .container3 .mini1-container1,
-.main .container4 .mini1-container1 {
+.main .mini1-container1 {
   background-color: #5d5b6a;
 }
-.main .container1 .mini1-container2,
-.main .container2 .mini1-container2,
-.main .container3 .mini1-container2,
-.main .container4 .mini1-container2 {
+.main .mini1-container2 {
   background-color: #758184;
 }
-.main .container1 .mini1-container3,
-.main .container2 .mini1-container3,
-.main .container3 .mini1-container3,
-.main .container4 .mini1-container3 {
+.main .mini1-container3 {
   background-color: #cfb495;
 }
-.main .container1 .mini1-container4,
-.main .container2 .mini1-container4,
-.main .container3 .mini1-container4,
-.main .container4 .mini1-container4 {
+.main .mini1-container4 {
   background-color: #f5cdaa;
 }
-.main .container1 .mini2-container1,
-.main .container2 .mini2-container1,
-.main .container3 .mini2-container1,
-.main .container4 .mini2-container1 {
+.main .mini2-container1 {
   background-color: #004445;
 }
-.main .container1 .mini2-container2,
-.main .container2 .mini2-container2,
-.main .container3 .mini2-container2,
-.main .container4 .mini2-container2 {
+.main .mini2-container2 {
   background-color: #2c7873;
 }
-.main .container1 .mini2-container3,
-.main .container2 .mini2-container3,
-.main .container3 .mini2-container3,
-.main .container4 .mini2-container3 {
+.main .mini2-container3 {
   background-color: #6fb98f;
 }
-.main .container1 .mini2-container4,
-.main .container2 .mini2-container4,
-.main .container3 .mini2-container4,
-.main .container4 .mini2-container4 {
+.main .mini2-container4 {
   background-color: #ffd800;
 }
-.main .container1 .mini3-container1,
-.main .container2 .mini3-container1,
-.main .container3 .mini3-container1,
-.main .container4 .mini3-container1 {
+.main .mini3-container1 {
   background-color: #2a1a5e;
 }
-.main .container1 .mini3-container2,
-.main .container2 .mini3-container2,
-.main .container3 .mini3-container2,
-.main .container4 .mini3-container2 {
+.main .mini3-container2 {
   background-color: #f45905;
 }
-.main .container1 .mini3-container3,
-.main .container2 .mini3-container3,
-.main .container3 .mini3-container3,
-.main .container4 .mini3-container3 {
+.main .mini3-container3 {
   background-color: #fb9224;
 }
-.main .container1 .mini3-container4,
-.main .container2 .mini3-container4,
-.main .container3 .mini3-container4,
-.main .container4 .mini3-container4 {
+.main .mini3-container4 {
   background-color: #fbe555;
 }
-.main .container1 .mini4-container1,
-.main .container2 .mini4-container1,
-.main .container3 .mini4-container1,
-.main .container4 .mini4-container1 {
+.main .mini4-container1 {
   background-color: #f9d5bb;
 }
-.main .container1 .mini4-container2,
-.main .container2 .mini4-container2,
-.main .container3 .mini4-container2,
-.main .container4 .mini4-container2 {
+.main .mini4-container2 {
   background-color: #f66767;
 }
-.main .container1 .mini4-container3,
-.main .container2 .mini4-container3,
-.main .container3 .mini4-container3,
-.main .container4 .mini4-container3 {
+.main .mini4-container3 {
   background-color: #d35656;
 }
-.main .container1 .mini4-container4,
-.main .container2 .mini4-container4,
-.main .container3 .mini4-container4,
-.main .container4 .mini4-container4 {
+.main .mini4-container4 {
   background-color: #3c3d47;
 }
-.main .container1 .container-info,
-.main .container2 .container-info,
-.main .container3 .container-info,
-.main .container4 .container-info {
+.main .container-info {
   width: 11vw;
   font-size: 1.1rem;
   color: white;
@@ -214,70 +115,22 @@ body {
   text-align: center;
   opacity: 0;
 }
-.main .container1 .mini1-container1:hover .container-info,
-.main .container1 .mini1-container2:hover .container-info,
-.main .container1 .mini1-container3:hover .container-info,
-.main .container1 .mini1-container4:hover .container-info,
-.main .container1 .mini2-container1:hover .container-info,
-.main .container1 .mini2-container2:hover .container-info,
-.main .container1 .mini2-container3:hover .container-info,
-.main .container1 .mini2-container4:hover .container-info,
-.main .container1 .mini3-container1:hover .container-info,
-.main .container1 .mini3-container2:hover .container-info,
-.main .container1 .mini3-container3:hover .container-info,
-.main .container1 .mini3-container4:hover .container-info,
-.main .container1 .mini4-container1:hover .container-info,
-.main .container1 .mini4-container2:hover .container-info,
-.main .container1 .mini4-container3:hover .container-info,
-.main .container1 .mini4-container4:hover .container-info,
-.main .container2 .mini1-container1:hover .container-info,
-.main .container2 .mini1-container2:hover .container-info,
-.main .container2 .mini1-container3:hover .container-info,
-.main .container2 .mini1-container4:hover .container-info,
-.main .container2 .mini2-container1:hover .container-info,
-.main .container2 .mini2-container2:hover .container-info,
-.main .container2 .mini2-container3:hover .container-info,
-.main .container2 .mini2-container4:hover .container-info,
-.main .container2 .mini3-container1:hover .container-info,
-.main .container2 .mini3-container2:hover .container-info,
-.main .container2 .mini3-container3:hover .container-info,
-.main .container2 .mini3-container4:hover .container-info,
-.main .container2 .mini4-container1:hover .container-info,
-.main .container2 .mini4-container2:hover .container-info,
-.main .container2 .mini4-container3:hover .container-info,
-.main .container2 .mini4-container4:hover .container-info,
-.main .container3 .mini1-container1:hover .container-info,
-.main .container3 .mini1-container2:hover .container-info,
-.main .container3 .mini1-container3:hover .container-info,
-.main .container3 .mini1-container4:hover .container-info,
-.main .container3 .mini2-container1:hover .container-info,
-.main .container3 .mini2-container2:hover .container-info,
-.main .container3 .mini2-container3:hover .container-info,
-.main .container3 .mini2-container4:hover .container-info,
-.main .container3 .mini3-container1:hover .container-info,
-.main .container3 .mini3-container2:hover .container-info,
-.main .container3 .mini3-container3:hover .container-info,
-.main .container3 .mini3-container4:hover .container-info,
-.main .container3 .mini4-container1:hover .container-info,
-.main .container3 .mini4-container2:hover .container-info,
-.main .container3 .mini4-container3:hover .container-info,
-.main .container3 .mini4-container4:hover .container-info,
-.main .container4 .mini1-container1:hover .container-info,
-.main .container4 .mini1-container2:hover .container-info,
-.main .container4 .mini1-container3:hover .container-info,
-.main .container4 .mini1-container4:hover .container-info,
-.main .container4 .mini2-container1:hover .container-info,
-.main .container4 .mini2-container2:hover .container-info,
-.main .container4 .mini2-container3:hover .container-info,
-.main .container4 .mini2-container4:hover .container-info,
-.main .container4 .mini3-container1:hover .container-info,
-.main .container4 .mini3-container2:hover .container-info,
-.main .container4 .mini3-container3:hover .container-info,
-.main .container4 .mini3-container4:hover .container-info,
-.main .container4 .mini4-container1:hover .container-info,
-.main .container4 .mini4-container2:hover .container-info,
-.main .container4 .mini4-container3:hover .container-info,
-.main .container4 .mini4-container4:hover .container-info {
+.main .mini1-container1:hover .container-info,
+.main .mini1-container2:hover .container-info,
+.main .mini1-container3:hover .container-info,
+.main .mini1-container4:hover .container-info,
+.main .mini2-container1:hover .container-info,
+.main .mini2-container2:hover .container-info,
+.main .mini2-container3:hover .container-info,
+.main .mini2-container4:hover .container-info,
+.main .mini3-container1:hover .container-info,
+.main .mini3-container2:hover .container-info,
+.main .mini3-container3:hover .container-info,
+.main .mini3-container4:hover .container-info,
+.main .mini4-container1:hover .container-info,
+.main .mini4-container2:hover .container-info,
+.main .mini4-container3:hover .container-info,
+.main .mini4-container4:hover .container-info {
   width: 11vw;
   font-size: 1.1rem;
   color: white;
