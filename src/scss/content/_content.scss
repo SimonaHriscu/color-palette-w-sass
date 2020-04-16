@@ -1,9 +1,8 @@
-.title{
- width: 60vw;
- height: 7vw;
- font-size: 3rem;
- text-align: center;
-
+.title {
+  width: 60vw;
+  height: 7vw;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .main {
@@ -11,8 +10,8 @@
   height: 50vh;
   @include display-flex-row;
   justify-content: space-around;
-  
- /// Settings Containers 
+
+  /// Settings Containers
 
   .container1,
   .container2,
@@ -20,114 +19,113 @@
   .container4 {
     @include cont-settings;
     @include flex-column;
-    .mini1-container1,
-    .mini2-container1,
-    .mini3-container1,
-    .mini4-container1 {
-      flex-grow: 3;
-    }
-    .mini1-container2,
-    .mini2-container2,
-    .mini3-container2,
-    .mini4-container2 {
-      flex-grow: 2;
-    }
-    .mini1-container3,
-    .mini2-container3,
-    .mini3-container3,
-    .mini4-container3,
-    .mini1-container4,
-    .mini2-container4,
-    .mini3-container4,
-    .mini4-container4 {
-      flex-grow: 1; 
-    }
-     ///Colors Container 1
-    .mini1-container1{
-      background-color: color(mini1-container1);
-    }
-    .mini1-container2{
-      background-color: color(mini1-container2);
-    }
-    .mini1-container3{
-      background-color: color(mini1-container3);
-    }
-    .mini1-container4{
-      background-color: color(mini1-container4);
-    }
+  }
+  .mini1-container1,
+  .mini2-container1,
+  .mini3-container1,
+  .mini4-container1 {
+    flex-grow: 3;
+  }
+  .mini1-container2,
+  .mini2-container2,
+  .mini3-container2,
+  .mini4-container2 {
+    flex-grow: 2;
+  }
+  .mini1-container3,
+  .mini2-container3,
+  .mini3-container3,
+  .mini4-container3,
+  .mini1-container4,
+  .mini2-container4,
+  .mini3-container4,
+  .mini4-container4 {
+    flex-grow: 1;
+  }
+  ///Colors Container 1
+  .mini1-container1 {
+    background-color: color(mini1-container1);
+  }
+  .mini1-container2 {
+    background-color: color(mini1-container2);
+  }
+  .mini1-container3 {
+    background-color: color(mini1-container3);
+  }
+  .mini1-container4 {
+    background-color: color(mini1-container4);
+  }
 
-    ///Colors Container 2
-    .mini2-container1{
-      background-color: color(mini2-container1);
-    }
-    .mini2-container2{
-      background-color: color(mini2-container2);
-    }
-    .mini2-container3{
-      background-color: color(mini2-container3);
-    }
-    .mini2-container4{
-      background-color: color(mini2-container4);
-    }
+  ///Colors Container 2
+  .mini2-container1 {
+    background-color: color(mini2-container1);
+  }
+  .mini2-container2 {
+    background-color: color(mini2-container2);
+  }
+  .mini2-container3 {
+    background-color: color(mini2-container3);
+  }
+  .mini2-container4 {
+    background-color: color(mini2-container4);
+  }
 
-    ///Colors Container 3
-    .mini3-container1{
-      background-color: color(mini3-container1);
-    }
-    .mini3-container2{
-      background-color: color(mini3-container2);
-    }
-    .mini3-container3{
-      background-color: color(mini3-container3);
-    }
-    .mini3-container4{
-      background-color: color(mini3-container4);
-    }
+  ///Colors Container 3
+  .mini3-container1 {
+    background-color: color(mini3-container1);
+  }
+  .mini3-container2 {
+    background-color: color(mini3-container2);
+  }
+  .mini3-container3 {
+    background-color: color(mini3-container3);
+  }
+  .mini3-container4 {
+    background-color: color(mini3-container4);
+  }
 
-    ///Colors Container 4
-    .mini4-container1{
-      background-color: color(mini4-container1);
-    }
-    .mini4-container2{
-      background-color: color(mini4-container2);
-    }
-    .mini4-container3{
-      background-color: color(mini4-container3);
-    }
-    .mini4-container4{
-      background-color: color(mini4-container4);
-    }
+  ///Colors Container 4
+  .mini4-container1 {
+    background-color: color(mini4-container1);
+  }
+  .mini4-container2 {
+    background-color: color(mini4-container2);
+  }
+  .mini4-container3 {
+    background-color: color(mini4-container3);
+  }
+  .mini4-container4 {
+    background-color: color(mini4-container4);
+  }
 
+  ///Info Container
 
- ///Info Container 
+  .container-info {
+    @include color-info-box;
+    opacity: 0;
+  }
 
-    .container-info {
+  ///HOVER Info Container
+  .mini1-container1,
+  .mini1-container2,
+  .mini1-container3,
+  .mini1-container4,
+  .mini2-container1,
+  .mini2-container2,
+  .mini2-container3,
+  .mini2-container4,
+  .mini3-container1,
+  .mini3-container2,
+  .mini3-container3,
+  .mini3-container4,
+  .mini4-container1,
+  .mini4-container2,
+  .mini4-container3,
+  .mini4-container4 {
+    &:hover .container-info {
       @include color-info-box;
-      opacity: 0;
-    }
-
-///HOVER Info Container 
-    .mini1-container1,
-    .mini1-container2,
-    .mini1-container3,
-    .mini1-container4,
-    .mini2-container1,
-    .mini2-container2,
-    .mini2-container3,
-    .mini2-container4,
-    .mini3-container1,
-    .mini3-container2,
-    .mini3-container3,
-    .mini3-container4,
-    .mini4-container1,
-    .mini4-container2,
-    .mini4-container3,
-    .mini4-container4 {
-      &:hover .container-info {
-        @include color-info-box;
-        opacity: 1;
-        transition: ease-in-out 0.3s;
-      }
+      opacity: 1;
+      transition: ease-in-out 0.3s;
     }
   }
 }

@@ -1,22 +1,23 @@
-@mixin color-info-box {
-      width: 11vw;
-      font-size: 1.1rem;
-      color: white;
-      background-color: color(info-background);
-      text-align: center;    
-}
-@mixin display-flex-row{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
-@mixin cont-settings{
-    width: 12vw;
-    height: 30vh;
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
-@mixin flex-column{
-    display: flex;
-    flex-direction: column;
+@mixin cont-settings {
+  width: 12vw;
+  height: 30vh;
+}
+
+@mixin display-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@mixin color-info-box {
+  width: 11vw;
+  font-size: 1.1rem;
+  color: white;
+  background-color: color(info-background);
+  text-align: center;
 }
