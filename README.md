@@ -1,4 +1,4 @@
-# Color Guide in SASS wit Hover effect
+# Color Guide in SASS with Hover effect
 
 
 ## To do:
@@ -9,5 +9,6 @@
 * Use variables so that you can update and change the main colors easily.
 * Use mixins where possible.
 
+## Result:
 ![Imgur](https://i.imgur.com/Y5V6BTd.png?1)
 ![Imgur](https://i.imgur.com/GaZgGso.jpg)
