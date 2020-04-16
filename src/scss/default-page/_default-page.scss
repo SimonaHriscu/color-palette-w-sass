@@ -6,7 +6,8 @@
   body {
     width: 100vw;
     height: 100vh;
-    @include display-flex;
-    justify-content: center;
+    @include flex-column;
+    align-items:center;
+    justify-content: space-evenly;
   }
 

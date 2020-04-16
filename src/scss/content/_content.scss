@@ -1,7 +1,15 @@
+.title{
+ width: 60vw;
+ height: 7vw;
+ font-size: 3rem;
+ text-align: center;
+
+}
+
 .main {
   width: 60vw;
   height: 50vh;
-  @include display-flex;
+  @include display-flex-row;
   justify-content: space-around;
   
  /// Settings Containers 
@@ -11,6 +19,7 @@
   .container3,
   .container4 {
     @include cont-settings;
+    @include flex-column;
     .mini1-container1,
     .mini2-container1,
     .mini3-container1,
